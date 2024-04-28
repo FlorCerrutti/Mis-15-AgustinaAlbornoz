@@ -1,0 +1,90 @@
+html,
+body {
+    position:relative;
+    height: 100%;
+}
+body {
+    background-color:rgb(8, 7, 7);
+    font-family: Eyesome script;
+    font-size: 14px;
+    color: white;
+    margin: 10;
+    padding: 0;
+}
+.swiper {
+    width: 100;
+    padding: 15px 0 50px 0;
+}
+.swiper-slide {
+    width: 350px;
+    height: 500px;
+    background-color: black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 10);
+    padding: 40px;
+    
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.icons i
+{
+    font-size: 20px;
+    color: white;
+}
+.logo {
+    width: 20%;
+}
+.icons img {
+    width: 20%;
+}
+.agustina.content {
+    display: flex;
+    justify-content: space-between;
+}
+.agustina-txt {
+    flex-basis: 50%;
+    text-align: left;
+}
+.agustina-txt {
+font-size: 25px;
+color: white;
+font-weight: bold;
+}
+.agustina-txt {
+    font-size: 5%;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+.agustina-txt p {
+    font-size: 14px;
+    color: white;
+}
+.agustina-img 
+{ flex-basis: 50%;
+text-align: right;
+}
+.agustina-img img {
+    width: 110%;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 13px 20px;
+    border: 1px solid coral;
+    border-radius: 25px;
+    color: rgb(165, 45, 45);
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.audio-player {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    height: 60px;
+    background-color: black
+}
